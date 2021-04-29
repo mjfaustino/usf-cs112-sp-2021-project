@@ -1,3 +1,5 @@
+package projectPart1;
+
 public class DataPoint {
     private Double f1;
     private Double f2;
@@ -57,15 +59,16 @@ public class DataPoint {
         this.isTest = isTest;
     }
 
-    public void setLabel(String label) {
-        if (! label.equals("Good true") ||
-                label.equals("Bad false")) {
-            return;
-        }
-        this.label = label;
-
-    }
+//    public void setLabel1(String label) {
+//        if (! label.equals("Good true") ||
+//                label.equals("Bad false")) {
+//            return;
+//        }
+//        this.label = label;
+//
+//    }
 
 
 
 }
+
